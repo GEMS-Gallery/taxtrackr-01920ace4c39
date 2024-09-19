@@ -30,13 +30,13 @@ input[type="text"] {
 }
 
 button {
-    display: block;
-    width: 100%;
+    display: inline-block;
     padding: 10px;
     background: #333;
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-right: 5px;
 }
 
 button:hover {
@@ -52,9 +52,18 @@ li {
     background: #fff;
     padding: 10px;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #searchResult {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#updateFormContainer {
     background: #fff;
     padding: 20px;
     margin-top: 20px;
